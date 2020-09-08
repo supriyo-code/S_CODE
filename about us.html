@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+  <div class="header text-center " style="margin-bottom:0" >
+      <img src="img/logo6.jpg" style= "width:100px; height:90px;" align="left">
+    <h1>Bootstrap Learning Season</h1>
+  <p>BOOTSTRAP PRACTICE</p> 
+
+</div>
+
+<nav class="navbar navbar-expand-sm bg-warning navbar-white">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="bstrp.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about us.html">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact us.html">CONTACT US</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+        SERVICE
+      </a>
+      <div class="dropdown-menu bg-primary">
+        <a class="dropdown-item" href="#">INSURANCE POLICY</a>
+        <a class="dropdown-item" href="#">HEALTH POLICY</a>
+        <a class="dropdown-item" href="#">TRAVEL POLICY</a>
+        <a class="dropdown-item" href="#">FIRE POLICY</a>
+        <a class="dropdown-item" href="#">HOME POLICY</a>
+        <a class="dropdown-item" href="#">EDUCATION POLICY</a>
+        <a class="dropdown-item" href="#">MOTOR POLICY</a> 
+    </div>
+</li>
+    <button class="btn btn-danger" data-toggle="modal" data-target="#myModal"style="margin-left:1000px;"><b>Sign In</b></button>
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign In</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        </div>
+  </ul>
+  </nav>
+
+<div class="container-fluid p-0">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/privacy-policy (1).jpg" >
+       
+    </div>
+    <div class="carousel-item">
+      <img src="img/pb1.jpg" >
+      
+    </div>
+    <div class="carousel-item">
+      <img src="img/pb3.png" >
+      
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+
+ <section>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">insurance policy</h1>
+<hr class="w-25 mx-auto pt-5 ">
+<div class="row mb-5">
+<div class="col-lg-6 col-md-6 col-12">
+<img src="img/u1.png"class="img-fluid" ></div>
+<div class="col-lg-6 col-md-6 col-12">
+<h1>Policy System</h1>
+<hr>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+
+</div>
+</div>
+
+</div>
+</section>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">security method</h1>
+<hr class="w-25 mx-auto pt-5">
+</div>
+<div class="container-fluid p-3 my-3 bg-light text-primary">
+  <h1 class="bg-secondary text-center">YOUR SECURITY OUR PRIORITY</h1>
+  <hr>
+  <p>Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">about us</h1>
+<hr class="w-25 mx-auto pt-5">
+</div>
+<div class ="container-fluid bg-primary">
+  <div class="container-fluid p-3 my-3 text-center text-white">
+  <h1>TERMS AND CONDITIONS</h1>
+  <hr class="bg-danger">
+  <div class="col-sm-12">
+    <div class="row">
+    <div class="col-sm-3"> 
+      <div class="border"style= " box-shadow:5px 10px  blue">
+      
+      <img src="img/Telegram.png" >
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+      <button type="button" class="btn btn-warning">
+        <a class="" href="about us.html"></a><b>Read More</b></button>
+ </div>
+</div>
+
+    <div class="col-sm-3">
+      <div class="border"style= " box-shadow:5px 10px  blue">
+      <img src="img/Telegram.png" >
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+      <button type="button" class="btn btn-warning"><b>Read More</b></button>
+    </div>
+    </div> 
+    <div class="col-sm-3 ">
+      <div class="border"style= " box-shadow:5px 10px  blue">
+      <img src="img/Telegram.png" >
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+      <button type="button" class="btn btn-warning"><b>Read More</b></button>
+    </div>
+</div>
+    <div class="col-sm-3">
+<div class="border"style= " box-shadow:5px 10px  blue">
+<img src="img/Telegram.png" >
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+<button type="button" class="btn btn-warning"><b>Read More</b></button>
+    </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">our vision</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container">
+   <div class="row">
+    <div class="col">
+      <img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="col">
+      <img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="col"><img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="col">
+      <img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="col">
+      <img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+    <div class="col" >
+      <img src="img/vs2.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">services</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+<div class ="container-fluid   " >
+  
+  <div class="col-sm-12">
+    <div class="row">
+    <div class="col-sm-3 "> 
+      
+      <img src="img/v3.jpg" >
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+ </div>
+
+    <div class="col-sm-3">
+      
+      <img src="img/v3.jpg" >
+      <p class="text-center" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+     </div>
+    <div class="col-sm-3 ">
+      
+      <img src="img/v3.jpg" >
+      <p class="text-center" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+</div>
+    <div class="col-sm-3">
+
+<img src="img/v3.jpg" >
+<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+      
+    
+    <div class="carousel-item">
+      
+<div class ="container-fluid ">
+  
+  <div class="col-sm-12">
+    <div class="row">
+    <div class="col-sm-3 "> 
+      
+      <img src="img/t1.png">
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+ 
+</div>
+    <div class="col-sm-3">
+      
+      <img src="img/t1.png">
+      <p class="text-center" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+    </div> 
+    <div class="col-sm-3 ">
+      
+      <img src="img/t1.png" >
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+</div>
+    <div class="col-sm-3">
+
+<img src="img/t1.png" >
+<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+      
+    <div class="carousel-item">
+      
+<div class ="container-fluid ">
+  
+  <div class="col-sm-12">
+    <div class="row">
+    <div class="col-sm-3 "> 
+      
+      <img src="img/v7.jpg" >
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+
+</div>
+    <div class="col-sm-3">
+      
+      <img src="img/v7.jpg" >
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+    </div> 
+    <div class="col-sm-3 ">
+      
+      <img src="img/v7.jpg" >
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    
+</div>
+    <div class="col-sm-3">
+
+<img src="img/v7.jpg">
+<p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.</p>
+    </div>
+
+  </div>
+</div>
+
+</div>
+      
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> policy platform</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container">
+      <table class="table table-bordered table-hover table-responsive-sm ">
+        <thead>
+          <tr class="bg-dark">
+            <th class="text-center text-white" colspan="6">MONEY SAVING AND INTEREST</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="7" class="text-center" style="padding-top:130px"><strong>POLICY PLAN</strong></td>
+          </tr>
+          <tr class="table-primary">
+            <td class="text-center "><strong>INTEREST </strong></td>
+            <td class="text-center"><strong>INTEREST </strong></td>
+            <td class="text-center"><strong>INTEREST </strong></td>
+            <td class="text-center"><strong>INTEREST </strong></td>
+            <td class="text-center"><strong>INTEREST </strong></td>
+          </tr>
+           <tr>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+          </tr>
+          <tr>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+          </tr>
+<tr>
+  <td colspan="5" class="text-center bg-light text-dark font-weight-bold"> RULES</td>
+</tr>
+ <tr>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+          </tr>
+           <tr>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+            <td class="text-center">RS20,000/policy</td>
+          </tr>
+          
+         
+        </tbody>
+      </table>
+        </div>
+
+        <div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> a/c opening charges</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container-fluid">
+      <table class="table table-bordered table-hover table-responsive-sm ">
+        <thead>
+          <tr class="bg-success">
+            <th class="text-center text-white" colspan="6">A/C OPENING CHARGES </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3" class="text-center" style="padding-top:50px"><strong> PLAN</strong></td>
+          </tr>
+          <tr class="table-warning">
+            <td class="text-center "><strong>INSURANCE CHARGES</strong></td>
+            <td class="text-center"><strong>INSURANCE CHARGES</strong></td>
+            <td class="text-center"><strong>INSURANCE CHARGES</strong></td>
+            <td class="text-center"><strong>INSURANCE CHARGES</strong></td>
+            <td class="text-center"><strong>INSURANCE CHARGES</strong></td>
+          </tr>
+           <tr>
+            <td class="text-center">RS20,000/INSURANCE</td>
+            <td class="text-center">RS20,000/INSURANCE</td>
+            <td class="text-center">RS20,000/INSURANCE</td>
+            <td class="text-center">RS20,000/INSURANCE</td>
+            <td class="text-center">RS20,000/INSURANCE</td>
+          </tr>
+          </tbody>
+      </table>
+        </div>
+        <div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> policy details</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container bg-light text-danger text-center">
+     <b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> our team</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container">
+   <div class="row">
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+     
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+     
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+        
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+      
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+        
+    </div>
+    <div class="col">
+      <img src="img/av1.png" class="rounded-circle">
+    
+  </div>
+</div> <br>
+
+<div class="container">
+   <div class="row">
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+        
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+        
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+   
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+      
+    </div>
+    <div class="col">
+      <img src="img/av1.png"class="rounded-circle">
+       
+    </div>
+    <div class="col">
+      <img src="img/av1.png" class="rounded-circle">
+      
+  </div>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> management</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="row text-center mb-5">
+<div class="col-lg-6 c0l-md-6 col-12">
+<div class="card">
+  <img class="card-img-top" src="img/1 (1).jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-primary">CEO & FOUNDER</h4>
+    <hr class="w-25 mx-auto bg-dark" >
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+    
+  </div>
+</div>
+</div>
+<div class="col-lg-6 c0l-md-6 col-12">
+<div class="card">
+  <img class="card-img-top" src="img/1 (1).jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title text-primary"> MANAGING DIRECTOR</h4>
+    <hr class="w-25 mx-auto bg-dark" >
+    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">contact us/sign up</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+
+<div class="container">
+<div class="w-50 mx-auto">
+<form action="/action_page.php">
+    <div class="form-group">
+<img src="img/av1.png"class="rounded-circle" style="margin-left:200px;"><br>
+    <label for="email">Your Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Your Name" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Email:</label>
+    <input type="email" class="form-control"  id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="email" class="form-control"  id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Mobile No:</label>
+    <input type="number" class="form-control"  id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="send" class="btn btn-warning">Send</button>
+</form>
+</div>
+</div><br><br><br><br>
+<div class="container-fluid bg-dark text-primary">
+  <div class="row">
+    <div class="col-sm-2">
+      <h5 class="text-center pt-5">QUICK PAGES</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+      <a class="nav-link" href="bstrp.html">HOME</a>
+      <a class="nav-link" href="about us.html">ABOUT US</a>
+      <a class="nav-link" href="contact us.html">CONTACT US</a>
+        <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+        SERVICE
+      </a>
+      <div class="dropdown-menu bg-primary">
+        <a class="dropdown-item" href="#">INSURANCE POLICY</a>
+        <a class="dropdown-item" href="#">HEALTH POLICY</a>
+        <a class="dropdown-item" href="#">TRAVEL POLICY</a>
+        <a class="dropdown-item" href="#">FIRE POLICY</a>
+        <a class="dropdown-item" href="#">HOME POLICY</a>
+        <a class="dropdown-item" href="#">EDUCATION POLICY</a>
+        <a class="dropdown-item" href="#">MOTOR POLICY</a> 
+    </div>
+    </div>
+</div>
+    <div class="col-sm-2" >
+      <h5 class="text-center pt-5">POLICY</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+         <a class="nav-link" href="#">INSURANCE POLICY</a>
+        <a class="nav-link" href="#">HEALTH POLICY</a>
+        <a class="nav-link" href="#">TRAVEL POLICY</a>
+        <a class="nav-link" href="#">FIRE POLICY</a>
+        <a class="nav-link" href="#">HOME POLICY</a>
+        <a class="nav-link" href="#">EDUCATION POLICY</a>
+        <a class="nav-link" href="#">MOTOR POLICY</a> 
+    </div>
+</div>
+    <div class="col-sm-2">
+      <h5 class="text-center pt-5">ADDRESS</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+      DELHI, SECTOR:BD, Z TOWER, CF-2,
+      PN:455678, GR-786.
+        
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <h5 class="text-center pt-5">CONTACT NOW</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+
+          <b>EMAIL :</b> abck@bgdr.in,
+            ghfk@ghbu.com,
+            frdk@dsce.tk,
+            cvbds@hgjkf.info<br>
+        <b>TOLL FREE :</b> 678-768-908,
+                  546-897-324,
+                  653-876-231<br>
+        <b>PH NO :</b> 9875643201,
+              8987654321,
+              6574098732 <br>
+        <b>FAX NO : </b> 65478339,
+                 87654467,
+                 78954367,
+                 89755476  <br>
+             </div>
+         </div>
+             <div class="col-sm-2">
+      <h5 class="text-center pt-5">JOIN NOW</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+                 <img src="img/av1.png"class="rounded-circle" style="margin-left:10px;"><br><br>  
+<button class="btn btn-danger" data-toggle="modal" data-target="#myModal"><b>Join Now</b></button><br><br>
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign In</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+ </div>
+ </div>      
+</div>
+</div>
+      </div>
+
+    </div>
+      <div class="col-sm-2">
+      <h5 class="text-center pt-5">YOUR A/C</h5>
+      <hr class="w-25 mx-auto  bg-white" >
+      <div class="text-center">
+                 <img src="img/av1.png"class="rounded-circle" style="margin-left:10px;"><br><br>  
+<button class="btn btn-warning" data-toggle="modal" data-target="#myModal"><b>Sign IN Now</b></button><br><br>
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign In</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+        
+      </div>
+  </div>
+  <div class="container-fluid text-center">POWERD BY @supriyo 2020</div>
+</div>
+
+

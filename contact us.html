@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+	<div class="header text-center " style="margin-bottom:0" >
+      <img src="img/logo6.jpg" style= "width:100px; height:90px;" align="left">
+		<h1> Bootstrap Learning Season</h1>
+  <p>BOOTSTRAP PRACTICE</p> 
+</div>
+<nav class="navbar navbar-expand-sm bg-warning navbar-white">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="bstrp.html">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about us.html">ABOUT US</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact us.html">CONTACT US</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+        SERVICE
+      </a>
+      <div class="dropdown-menu bg-primary">
+        <a class="dropdown-item" href="#">INSURANCE POLICY</a>
+        <a class="dropdown-item" href="#">HEALTH POLICY</a>
+        <a class="dropdown-item" href="#">TRAVEL POLICY</a>
+        <a class="dropdown-item" href="#">FIRE POLICY</a>
+        <a class="dropdown-item" href="#">HOME POLICY</a>
+        <a class="dropdown-item" href="#">EDUCATION POLICY</a>
+        <a class="dropdown-item" href="#">MOTOR POLICY</a> 
+    </div>
+</li>
+<button class="btn btn-danger" data-toggle="modal" data-target="#myModal"style="margin-left:1000px;"><b>Sign In</b></button>
+<!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign In</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+        </div>
+  </ul>
+  </nav>
+<div class="container-fluid p-0">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/privacy-policy (1).jpg" >
+       
+    </div>
+    <div class="carousel-item">
+      <img src="img/pb1.jpg" >
+      
+    </div>
+    <div class="carousel-item">
+      <img src="img/pb3.png" >
+      
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5">contact us</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+
+<div class="container">
+<div class="w-50 mx-auto">
+<form action="/action_page.php">
+  <div class="form-group">
+  	<img src="img/av1.png"class="rounded-circle" style="margin-left:200px;"><br>
+    <label for="email">Your Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Your Name" id="email"autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Email:</label>
+    <input type="email" class="form-control"  id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="email" class="form-control"  id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Mobile No:</label>
+    <input type="number" class="form-control"  id="pwd">
+	</div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-warning">Send</button>
+</form>
+</div>
+</div>
+<div class="container-fluid">
+<h1 class="text-center text-capitalize pt-5"> always with us</h1>
+<hr class="w-25 mx-auto pt-5" >
+</div>
+<div class="container bg-light text-warning text-center">
+     <b>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b>
+</div>
+<br><br><br><br>
+<div class="container-fluid bg-dark text-primary">
+	<div class="row">
+    <div class="col-sm-2">
+    	<h5 class="text-center pt-5">QUICK PAGES</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+    	<a class="nav-link" href="bstrp.html">HOME</a>
+    	<a class="nav-link" href="about us.html">ABOUT US</a>
+    	<a class="nav-link" href="contact us.html">CONTACT US</a>
+        <a class="nav-link dropdown-toggle " href="#" id="navbardrop" data-toggle="dropdown">
+        SERVICE
+      </a>
+      <div class="dropdown-menu bg-primary">
+        <a class="dropdown-item" href="#">INSURANCE POLICY</a>
+        <a class="dropdown-item" href="#">HEALTH POLICY</a>
+        <a class="dropdown-item" href="#">TRAVEL POLICY</a>
+        <a class="dropdown-item" href="#">FIRE POLICY</a>
+        <a class="dropdown-item" href="#">HOME POLICY</a>
+        <a class="dropdown-item" href="#">EDUCATION POLICY</a>
+        <a class="dropdown-item" href="#">MOTOR POLICY</a> 
+    </div>
+    </div>
+</div>
+    <div class="col-sm-2" >
+    	<h5 class="text-center pt-5">POLICY</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+    		 <a class="nav-link" href="#">INSURANCE POLICY</a>
+        <a class="nav-link" href="#">HEALTH POLICY</a>
+        <a class="nav-link" href="#">TRAVEL POLICY</a>
+        <a class="nav-link" href="#">FIRE POLICY</a>
+        <a class="nav-link" href="#">HOME POLICY</a>
+        <a class="nav-link" href="#">EDUCATION POLICY</a>
+        <a class="nav-link" href="#">MOTOR POLICY</a> 
+    </div>
+</div>
+    <div class="col-sm-2">
+    	<h5 class="text-center pt-5">ADDRESS</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+    	DELHI, SECTOR:BD, Z TOWER, CF-2,
+    	PN:455678, GR-786.
+    		
+    	</div>
+    </div>
+    <div class="col-sm-2">
+    	<h5 class="text-center pt-5">CONTACT NOW</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+
+    	    <b>EMAIL :</b> abck@bgdr.in,
+    		    ghfk@ghbu.com,
+    		    frdk@dsce.tk,
+    		    cvbds@hgjkf.info<br>
+    		<b>TOLL FREE :</b> 678-768-908,
+    		          546-897-324,
+    		          653-876-231<br>
+    		<b>PH NO :</b> 9875643201,
+    		      8987654321,
+    		      6574098732 <br>
+    		<b>FAX NO : </b> 65478339,
+    		         87654467,
+    		         78954367,
+    		         89755476  <br>
+    		     </div>
+    		 </div>
+    		     <div class="col-sm-2">
+    	<h5 class="text-center pt-5">JOIN NOW</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+    		         <img src="img/av1.png"class="rounded-circle" style="margin-left:10px;"><br><br>  
+<button type="JOIN NOW" class="btn btn-warning"><b>JOIN NOW</b></button><br><br>
+    	</div>
+    </div>
+    	<div class="col-sm-2">
+    	<h5 class="text-center pt-5">YOUR A/C</h5>
+    	<hr class="w-25 mx-auto  bg-white" >
+    	<div class="text-center">
+    		         <img src="img/av1.png"class="rounded-circle" style="margin-left:10px;"><br><br>  
+<button type="JOIN NOW" class="btn btn-danger"><b>SIGN IN NOW</b></button><br><br>
+    	</div>
+  </div>
+  <div class="container-fluid text-center">POWERD BY @supriyo 2020</div>
+</div>
