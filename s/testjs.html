@@ -147,3 +147,42 @@ myfun(10,20);
 var myfunction = c => {return c ;}
 
 </script>
+
+<script>
+   //Declaration Of Object
+   var fees = { };
+   fees.Rahul = 100;
+   fees.Sumit = 200;
+   fees.Rohan = 300;
+   document.write(fees.Rohan);
+   
+    </script><br>
+    <script>
+var fees = { };
+   fees['Rahul'] = 100;
+//fees['total'] = function(){return(100+200);};
+fees.total = function(){return(100+200);};
+//document.write (fees["total"]());
+document.write(fees.total());
+
+var fees={ rahul:100, Sumit:200, Rohan:300};
+document.write(fees['Rohan']);
+
+
+
+var fees={ 
+   rahul:100, 
+   Sumit:200, 
+   Rohan:300,
+   "Super Man" :400
+};
+document.write(fees["Super Man"]);
+</script>
+<script>
+
+var fees={Rahul:100,Sumit:200,total:function(){return(100+200);}
+};
+//document.write(fees.total());
+document.write(fees['total']());
+    </script>
+    
