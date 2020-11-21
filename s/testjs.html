@@ -185,4 +185,175 @@ var fees={Rahul:100,Sumit:200,total:function(){return(100+200);}
 //document.write(fees.total());
 document.write(fees['total']());
     </script>
+ <script>
+// Accessing Methods
+var fees = { Rahul:100,
+Sumit:300,
+Rohan:200,
+total:function(){return(100+200+300);}
+};
+//document.write (fees.total()); or
+document.write (fees['total'] ());
+</script>
+
+   <script>
+//(Adding Object Properties And Methods)
+var fees = {Rahul:100, Rohit:200};
+document.write(fees.Rahul + " " + fees.Rohit + "<br>")
+console.log(fees);
+
+var fees = {Rahul:100, Rohit:200};
+document.write(fees.Rahul + " " + fees.Rohit + "<br>")
+fees.sonam = 600; // fees.['sonam'] =600 ;
+document.write(fees.sonam + " " + fees.Rahul + " " + fees.Rohit + "<br>")
+console.log(fees);
+
+var fees = {Rahul:100, Rohit:200};
+document.write(fees.Rahul + " " + fees.Rohit + "<br>")
+fees.sonam = 600; // fees.['sonam'] =600 ;
+document.write(fees.sonam + " " + fees.Rahul + " " + fees.Rohit + "<br>")
+fees.show = function() {};
+console.log(fees);
+
+//(Deleting Prpperties)
+
+var fees = {Rahul:100, Rohit:200};
+document.write(fees.Rahul + " " + fees.Rohit + "<br>")
+delete fees.Rahul;
+document.write(fees.Rahul + " " + fees.Rohit + "<br>")
+console.log(fees);
+
+
+
+    </script>
     
+    <!---Factory Function-->
+    <script>
+/*var samsung = {model:'galaxy'};
+var Lg = {model:'3310'};
+var Nokia = {model:'1110'};*/
+function mobile (model_no) {
+   return {
+      model:model_no,
+      price:function (){ return "price is rs.3000";
+
+      }
+   };
+}
+var samsung = mobile('galaxy');
+var Nokia = mobile('3310');
+document.write( samsung.model +" "+ samsung.price() + "<br>");
+document.write( Nokia.model +" "+ Nokia.price() ); 
+    </script>
+
+
+   <!----constructor---->
+      <script>
+         function Mobile() {
+            this.model='3310';
+            this.price= function() { document.write(
+         this.model + "price rs. 3000"); 
+
+            }
+         }
+  var samsung= new Mobile();
+  samsung.price();
+      </script>
+      <script>
+     var b2 = new Array();
+     console.log(object.getPrototypeOf(b2));
+     console.log(object.getPrototypeOf(Array.Prototype));
+     console.log(object.getPrototypeOf(object.Prototype));
+
+      </script>
+
+<script>
+   var Mobile = function () {
+
+
+   }
+   console.log (Mobile .prototype);
+   
+</script>
+<script>
+function Mobile () {
+   this.a = 20;
+}
+Mobile.prototype .a =10;
+
+var lg = new Mobile ();
+console.log (lg.a);
+</script>
+
+<!--Constractor-->
+<script>
+function.Mobile(){
+this.model= '3310'
+this.price=function () {
+   document.write(this.model +"price rs. 3000");
+}
+var samsung = new Mobile ();
+samsung.price(); 
+}
+
+//Constractor with parameter
+
+function.Mobile (model_no){
+this.model=model_no;
+this price=function(){
+document.write(this.model + "price RS.3000 <br>");
+};
+
+}
+
+var Samsung=new Mobile ( 'Galaxy');
+var nokia = new Mobile ('3310');
+samsung.price ();
+nokia.price();
+</script>
+<!--check properties-->
+<script>
+function Mobile(model_no){
+
+   this.model = model_no;
+  this.memory=4;
+}
+var samsung = new Mobile('galaxy');
+var nokia = new Mobile ('3310');
+if(typeof nokia.memory !=='undefined'){
+
+   document.write("Available");
+
+}else {document.write("Doesnt Existe");
+}
+</script>
+<!---check properties 'in' operetor-->
+<script>function Mobile(model_no){
+
+   this.model = model_no;
+  this.memory=4;
+}
+var samsung = new Mobile('galaxy');
+var nokia = new Mobile ('3310');
+if('memory' in nokia){
+
+   document.write("Available");
+
+}else {document.write("Doesnt Existe");
+}</script>
+<!---check properties 'hasOwnProperty' operetor-->
+<script>
+function Mobile(model_no){
+
+   this.model = model_no;
+  this.color='white';
+}
+var samsung = new Mobile('galaxy');
+var nokia = new Mobile ('3310');
+if(nokia.hasOwnProperty('color')){
+
+   document.write("Available");
+
+}else {document.write("Doesnt Existe");
+}
+</script>   
